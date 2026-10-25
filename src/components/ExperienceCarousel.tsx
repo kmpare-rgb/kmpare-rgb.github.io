@@ -1,0 +1,4 @@
+import {experience} from '../content/experience';
+import {assetUrl} from '../content';
+import {AutoCarousel} from './AutoCarousel';
+export function ExperienceCarousel(){return <section className="experience-section" id="experience"><h2>Work Experience</h2><AutoCarousel label="Work experience" items={experience.map(e=><article className="role-card" key={e.role}><div className="logo-frame"><img src={assetUrl(e.role.includes('Production')?'images/company/production-lead.webp':e.role.includes('Fabrication')?'images/company/robotic-fabrication.webp':'images/company/robim-light.png')} alt={`${e.role} at RoBIM Technologies`} width="600" height="600"/></div><h3>{e.role}</h3><p>{e.summary}</p><div className="role-date">{e.dates}{e.planned?'*':''}</div>{e.planned&&<small>* Planned end date</small>}</article>)}/></section>}

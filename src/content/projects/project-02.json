@@ -1,0 +1,109 @@
+{
+  "id": "project-02",
+  "slug": "internal-cycloidal-actuator",
+  "title": "Internal cycloidal actuator",
+  "summary": "A 15:1 cycloidal gearbox packaged inside a custom BLDC stator, with a 55 mm axial length.",
+  "description": "A compact robotic actuator combining a custom BLDC motor with an internal dual-disc cycloidal gearbox. The completed project packages a 15:1 mechanical reduction in a 55 mm axial envelope.",
+  "category": "Robotic actuation",
+  "tools": [
+    "SolidWorks",
+    "PLA Pro",
+    "3D printing",
+    "PID control"
+  ],
+  "order": 2,
+  "featured": true,
+  "hero": {
+    "src": "images/projects/project-02/heroshot.webp",
+    "small": "images/projects/project-02/heroshot-small.webp",
+    "alt": "Assembled project",
+    "caption": "Assembled project",
+    "width": 1346,
+    "height": 1212
+  },
+  "gallery": [
+    {
+      "src": "images/projects/project-02/cross-section.webp",
+      "small": "images/projects/project-02/cross-section-small.webp",
+      "alt": "Cross section",
+      "caption": "Cross section",
+      "width": 1668,
+      "height": 868
+    },
+    {
+      "src": "images/projects/project-02/cycloidal-lobe-view.webp",
+      "small": "images/projects/project-02/cycloidal-lobe-view-small.webp",
+      "alt": "Cycloidal Lobe View",
+      "caption": "Cycloidal Lobe View",
+      "width": 1471,
+      "height": 1262
+    },
+    {
+      "src": "images/projects/project-02/exploded-view.webp",
+      "small": "images/projects/project-02/exploded-view-small.webp",
+      "alt": "Exploded View",
+      "caption": "Exploded View",
+      "width": 2723,
+      "height": 888
+    },
+    {
+      "src": "images/projects/project-02/heroshot.webp",
+      "small": "images/projects/project-02/heroshot-small.webp",
+      "alt": "Assembled project",
+      "caption": "Assembled project",
+      "width": 1346,
+      "height": 1212
+    }
+  ],
+  "objectives": [
+    "Package a 15:1 reduction inside the stator to minimize axial length.",
+    "Develop low-cost closed-loop position control using a microcontroller and encoder."
+  ],
+  "contributions": [
+    "Researched cycloidal kinematics and generated parametric disc profiles in SolidWorks.",
+    "Designed the 100-part assembly around available bearings, fasteners, and existing motor components."
+  ],
+  "process": [
+    {
+      "title": "Balance the eccentric motion",
+      "body": "Two cycloidal discs offset by 180° balance the rotating mass. The cycloidal architecture was chosen to target low backlash; measured backlash has not been supplied."
+    },
+    {
+      "title": "Work within the stator",
+      "body": "M6 steel dowels replace conventional ring-gear bearings to reduce the radial footprint. Parametric profiles accommodate the available bearing sizes."
+    },
+    {
+      "title": "Resolve the packaging constraint",
+      "body": "The documented design is 55 mm long. Off-the-shelf component interference prevented the original sub-50 mm target; shorter, custom-machined pins were identified as a future improvement."
+    }
+  ],
+  "results": [
+    "Documented mechanical design: 15:1 reduction, 55 mm axial length, and 100 parts."
+  ],
+  "lessons": [
+    "Commercial component dimensions can set the limit on an otherwise compact design."
+  ],
+  "metrics": [
+    [
+      "15:1",
+      "Design reduction"
+    ],
+    [
+      "55 mm",
+      "Axial length"
+    ],
+    [
+      "100",
+      "Assembly parts"
+    ]
+  ],
+  "status": "Completed",
+  "sources": [
+    "Project2 / Description.txt",
+    "Résumé / Project experience",
+    "User clarification: completed"
+  ],
+  "missing": [
+    "Add final assembly photographs and measured torque, efficiency, and closed-loop control results."
+  ]
+}

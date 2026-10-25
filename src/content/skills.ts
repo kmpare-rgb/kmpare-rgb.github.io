@@ -1,0 +1,1 @@
+export const skills = [{ title: 'Mechanical & design', items: ['SolidWorks', 'Fusion', 'CAD', 'DFM', 'GD&T', 'DfAM', '3D printing', 'Rapid prototyping'] }, { title: 'Software & embedded', items: ['Python', 'C++', 'Git', 'Circuit design', 'Soldering', 'Raspberry Pi', 'Arduino'] }];

@@ -1,0 +1,125 @@
+{
+  "id": "project-05",
+  "slug": "adhesive-dispensing-end-effector",
+  "title": "Robotic adhesive dispensing",
+  "summary": "A low-cost robotic end-effector that brought repeatability and faster cycle times to wall fabrication.",
+  "description": "A low-cost robotic end-effector that brought repeatability and faster cycle times to wall fabrication.",
+  "category": "Robotic tooling",
+  "tools": [
+    "ABB RobotStudio",
+    "RAPID",
+    "ABB IRB 6700",
+    "Pneumatics",
+    "3D printing"
+  ],
+  "order": 5,
+  "featured": false,
+  "hero": {
+    "src": "images/projects/project-05/cad-of-whole-model.webp",
+    "small": "images/projects/project-05/cad-of-whole-model-small.webp",
+    "alt": "CAD of whole model",
+    "caption": "CAD of whole model",
+    "width": 1345,
+    "height": 1241
+  },
+  "gallery": [
+    {
+      "src": "images/projects/project-05/action-shot-2.webp",
+      "small": "images/projects/project-05/action-shot-2-small.webp",
+      "alt": "action shot 2",
+      "caption": "action shot 2",
+      "width": 2044,
+      "height": 1170
+    },
+    {
+      "src": "images/projects/project-05/action-shot.webp",
+      "small": "images/projects/project-05/action-shot-small.webp",
+      "alt": "Action shot",
+      "caption": "Action shot",
+      "width": 1858,
+      "height": 1170
+    },
+    {
+      "src": "images/projects/project-05/cad-of-mounting-bracket.webp",
+      "small": "images/projects/project-05/cad-of-mounting-bracket-small.webp",
+      "alt": "CAD of mounting bracket",
+      "caption": "CAD of mounting bracket",
+      "width": 786,
+      "height": 1178
+    },
+    {
+      "src": "images/projects/project-05/cad-of-whole-model.webp",
+      "small": "images/projects/project-05/cad-of-whole-model-small.webp",
+      "alt": "CAD of whole model",
+      "caption": "CAD of whole model",
+      "width": 1345,
+      "height": 1241
+    },
+    {
+      "src": "images/projects/project-05/closeup-of-limit-switch.webp",
+      "small": "images/projects/project-05/closeup-of-limit-switch-small.webp",
+      "alt": "closeup of limit switch",
+      "caption": "closeup of limit switch",
+      "width": 927,
+      "height": 767
+    },
+    {
+      "src": "images/projects/project-05/results-of-glue-on-product.webp",
+      "small": "images/projects/project-05/results-of-glue-on-product-small.webp",
+      "alt": "Results of glue on product",
+      "caption": "Results of glue on product",
+      "width": 3789,
+      "height": 2178
+    },
+    {
+      "src": "images/projects/project-05/testing-photo.webp",
+      "small": "images/projects/project-05/testing-photo-small.webp",
+      "alt": "Testing photo",
+      "caption": "Testing photo",
+      "width": 3024,
+      "height": 2757
+    }
+  ],
+  "objectives": [
+    "Reduce the manual adhesive application bottleneck in a wall fabrication pilot.",
+    "Improve bead consistency with a robust, low-cost dispensing solution."
+  ],
+  "contributions": [
+    "Evaluated actuator concepts and selected an off-the-shelf electric caulking gun.",
+    "Designed the quick-change mount, pneumatic trigger actuation, and tube support.",
+    "Programmed robot paths and process logic in RAPID using RobotStudio and the IRC5 controller."
+  ],
+  "process": [
+    {
+      "title": "Adapt proven hardware",
+      "body": "An off-the-shelf caulking gun reduced cost and deployment time. A printed mount interfaces with the robot’s tool-change system."
+    },
+    {
+      "title": "Design around failure modes",
+      "body": "A U-bolt supports the tube to reduce stress on the tool’s plastic joints. A limit switch detects an empty tube and initiates a production interruption and reload sequence."
+    },
+    {
+      "title": "Tune the full process",
+      "body": "Varied robot speed, gun settings, and tip distance, then refined lift-off and stud-to-plate sequencing."
+    }
+  ],
+  "results": [
+    "Reduced adhesive application time by 54.5% compared with a professional human framer, as documented in the supplied project description.",
+    "Implemented the tested end-effector in pilot production with a consistent bead."
+  ],
+  "lessons": [],
+  "metrics": [
+    [
+      "54.5%",
+      "Less application time"
+    ],
+    [
+      "2.2×",
+      "Application speed"
+    ]
+  ],
+  "status": "Completed",
+  "sources": [
+    "Project5 / Description.txt"
+  ]
+}

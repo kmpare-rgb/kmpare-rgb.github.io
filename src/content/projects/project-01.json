@@ -1,0 +1,99 @@
+{
+  "id": "project-01",
+  "slug": "robotic-framing-nailer",
+  "title": "Robotic framing nailer",
+  "summary": "Robotic end-of-arm tooling for framing at RoBIM Technologies. Technical write-up in preparation.",
+  "description": "A robotic framing nailer end-effector at RoBIM Technologies Inc. Detailed engineering content has not yet been supplied.",
+  "category": "Robotic tooling",
+  "tools": [],
+  "order": 1,
+  "featured": true,
+  "hero": {
+    "src": "images/projects/project-01/hero-shot-of-framer-nailer.webp",
+    "small": "images/projects/project-01/hero-shot-of-framer-nailer-small.webp",
+    "alt": "Hero shot of framer nailer",
+    "caption": "Hero shot of framer nailer",
+    "width": 4032,
+    "height": 3024
+  },
+  "gallery": [
+    {
+      "src": "images/projects/project-01/action-shot-of-framer-nailer.webp",
+      "small": "images/projects/project-01/action-shot-of-framer-nailer-small.webp",
+      "alt": "action shot of framer nailer",
+      "caption": "action shot of framer nailer",
+      "width": 4032,
+      "height": 3024
+    },
+    {
+      "src": "images/projects/project-01/action-shot-of-wall-being-sheathed.webp",
+      "small": "images/projects/project-01/action-shot-of-wall-being-sheathed-small.webp",
+      "alt": "action shot of wall being sheathed",
+      "caption": "action shot of wall being sheathed",
+      "width": 3024,
+      "height": 3108
+    },
+    {
+      "src": "images/projects/project-01/cad.webp",
+      "small": "images/projects/project-01/cad-small.webp",
+      "alt": "CAD",
+      "caption": "CAD",
+      "width": 1123,
+      "height": 907
+    },
+    {
+      "src": "images/projects/project-01/finished-product-on-jig.webp",
+      "small": "images/projects/project-01/finished-product-on-jig-small.webp",
+      "alt": "finished product on jig",
+      "caption": "finished product on jig",
+      "width": 3024,
+      "height": 3651
+    },
+    {
+      "src": "images/projects/project-01/hero-shot-of-framer-nailer.webp",
+      "small": "images/projects/project-01/hero-shot-of-framer-nailer-small.webp",
+      "alt": "Hero shot of framer nailer",
+      "caption": "Hero shot of framer nailer",
+      "width": 4032,
+      "height": 3024
+    },
+    {
+      "src": "images/projects/project-01/stack-of-finished-product.webp",
+      "small": "images/projects/project-01/stack-of-finished-product-small.webp",
+      "alt": "Stack of finished product",
+      "caption": "Stack of finished product",
+      "width": 3986,
+      "height": 2990
+    }
+  ],
+  "objectives": [],
+  "contributions": [],
+  "process": [],
+  "results": [],
+  "lessons": [],
+  "metrics": [],
+  "status": "Case study in progress",
+  "sources": [
+    "Project1 / Info.txt"
+  ],
+  "placeholder": true,
+  "missing": [
+    "Add the project objectives and design constraints.",
+    "Describe your individual responsibilities and contributions.",
+    "Add verified tools, design iterations, testing, and outcomes."
+  ],
+  "modules": [
+    {
+      "title": "Module 1",
+      "body": "Add the module’s function, design decisions, technical details, and verified results."
+    },
+    {
+      "title": "Module 2",
+      "body": "Add the module’s function, design decisions, technical details, and verified results."
+    },
+    {
+      "title": "Module 3",
+      "body": "Add the module’s function, design decisions, technical details, and verified results."
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "project-07",
+  "slug": "formula-racing-bevel-gears",
+  "title": "Formula Racing bevel gears",
+  "summary": "A 1:1 steering gear redesign, constrained by the shafts and housing of an existing Formula SAE assembly.",
+  "description": "A 1:1 steering gear redesign, constrained by the shafts and housing of an existing Formula SAE assembly.",
+  "category": "Steering systems",
+  "tools": [
+    "SolidWorks",
+    "Parametric CAD",
+    "CNC machining"
+  ],
+  "order": 7,
+  "featured": false,
+  "hero": {
+    "src": "images/projects/project-07/finalproduct.webp",
+    "small": "images/projects/project-07/finalproduct-small.webp",
+    "alt": "FinalProduct",
+    "caption": "FinalProduct",
+    "width": 1344,
+    "height": 1170
+  },
+  "gallery": [
+    {
+      "src": "images/projects/project-07/cad.webp",
+      "small": "images/projects/project-07/cad-small.webp",
+      "alt": "CAD",
+      "caption": "CAD",
+      "width": 1044,
+      "height": 796
+    },
+    {
+      "src": "images/projects/project-07/finalproduct.webp",
+      "small": "images/projects/project-07/finalproduct-small.webp",
+      "alt": "FinalProduct",
+      "caption": "FinalProduct",
+      "width": 1344,
+      "height": 1170
+    },
+    {
+      "src": "images/projects/project-07/parametric-drawing.webp",
+      "small": "images/projects/project-07/parametric-drawing-small.webp",
+      "alt": "Parametric Drawing",
+      "caption": "Parametric Drawing",
+      "width": 1080,
+      "height": 1004
+    }
+  ],
+  "objectives": [
+    "Redesign the steering gearbox to a 1:1 ratio to improve driver feedback and steering response.",
+    "Retrofit the existing shafts and housing."
+  ],
+  "contributions": [
+    "Developed parametric bevel gears using standard gear equations.",
+    "Assembled and constrained the gears in SolidWorks to check rolling contact and interference."
+  ],
+  "process": [
+    {
+      "title": "Design within the interface",
+      "body": "The original shafts and housing established the constraints. Parametric gear geometry supported the change to a 1:1 ratio."
+    }
+  ],
+  "results": [
+    "Delivered a manufacturable CAD model and sent the final designs to a team sponsor for CNC machining."
+  ],
+  "lessons": [],
+  "metrics": [
+    [
+      "1:1",
+      "Designed gear ratio"
+    ]
+  ],
+  "status": "Completed",
+  "sources": [
+    "Project7 / description.txt"
+  ]
+}

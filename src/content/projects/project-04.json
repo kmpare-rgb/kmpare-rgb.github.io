@@ -1,0 +1,117 @@
+{
+  "id": "project-04",
+  "slug": "brushless-dc-motor",
+  "title": "3D-printed brushless DC motor",
+  "summary": "A custom 36N40P fractional-slot motor built to connect electromagnetic theory with physical prototyping.",
+  "description": "A custom 36N40P fractional-slot motor built to connect electromagnetic theory with physical prototyping.",
+  "category": "Electric motors",
+  "tools": [
+    "SolidWorks",
+    "PLA Pro",
+    "Hand winding",
+    "Back-EMF testing"
+  ],
+  "order": 4,
+  "featured": false,
+  "hero": {
+    "src": "images/projects/project-04/hero-shot-prototyp.webp",
+    "small": "images/projects/project-04/hero-shot-prototyp-small.webp",
+    "alt": "Hero shot prototype",
+    "caption": "Hero shot prototype",
+    "width": 2032,
+    "height": 2032
+  },
+  "gallery": [
+    {
+      "src": "images/projects/project-04/cad-model.webp",
+      "small": "images/projects/project-04/cad-model-small.webp",
+      "alt": "CAD Model",
+      "caption": "CAD Model",
+      "width": 1277,
+      "height": 1021
+    },
+    {
+      "src": "images/projects/project-04/exploded-view.webp",
+      "small": "images/projects/project-04/exploded-view-small.webp",
+      "alt": "Exploded View",
+      "caption": "Exploded View",
+      "width": 824,
+      "height": 1110
+    },
+    {
+      "src": "images/projects/project-04/hero-shot-prototyp.webp",
+      "small": "images/projects/project-04/hero-shot-prototyp-small.webp",
+      "alt": "Hero shot prototype",
+      "caption": "Hero shot prototype",
+      "width": 2032,
+      "height": 2032
+    },
+    {
+      "src": "images/projects/project-04/lab-setup-and-prototype-componenets.webp",
+      "small": "images/projects/project-04/lab-setup-and-prototype-componenets-small.webp",
+      "alt": "lab setup and prototypee components",
+      "caption": "lab setup and prototypee components",
+      "width": 3022,
+      "height": 3632
+    },
+    {
+      "src": "images/projects/project-04/magnet-installation.webp",
+      "small": "images/projects/project-04/magnet-installation-small.webp",
+      "alt": "Magnet installation",
+      "caption": "Magnet installation",
+      "width": 3024,
+      "height": 3354
+    },
+    {
+      "src": "images/projects/project-04/winding-diagram.webp",
+      "small": "images/projects/project-04/winding-diagram-small.webp",
+      "alt": "Winding Diagram",
+      "caption": "Winding Diagram",
+      "width": 1490,
+      "height": 1463
+    },
+    {
+      "src": "images/projects/project-04/winding-the-stator.webp",
+      "small": "images/projects/project-04/winding-the-stator-small.webp",
+      "alt": "winding the stator",
+      "caption": "winding the stator",
+      "width": 3024,
+      "height": 3198
+    }
+  ],
+  "objectives": [
+    "Design, fabricate, and test a motor from first principles for future robotic actuators."
+  ],
+  "contributions": [
+    "Modelled and printed the prototype around a 10010 laminated stator.",
+    "Hand-wound 36 coils in a Wye configuration with six parallel 26 AWG strands."
+  ],
+  "process": [
+    {
+      "title": "Build for learning",
+      "body": "Iterative printed components established fits for bearings and magnets. Multi-strand windings increased copper fill."
+    }
+  ],
+  "results": [
+    "Produced a functional motor prototype.",
+    "Back-EMF testing measured Kv = 443.4 RPM/V, higher than the target."
+  ],
+  "lessons": [
+    "The measured Kv indicated the need for a steel rotor or flux ring to strengthen the magnetic circuit."
+  ],
+  "metrics": [
+    [
+      "36N40P",
+      "Motor configuration"
+    ],
+    [
+      "443.4",
+      "Measured Kv · RPM/V"
+    ]
+  ],
+  "status": "Completed",
+  "sources": [
+    "Project4 / description.txt",
+    "Résumé / Project experience"
+  ]
+}

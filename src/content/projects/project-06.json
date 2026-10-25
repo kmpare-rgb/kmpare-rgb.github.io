@@ -1,0 +1,105 @@
+{
+  "id": "project-06",
+  "slug": "hand-tool-reverse-engineering",
+  "title": "Reverse-engineering a hand tool",
+  "summary": "From reference photographs and flatbed scans to a detailed CAD model for robotic tooling integration.",
+  "description": "From reference photographs and flatbed scans to a detailed CAD model for robotic tooling integration.",
+  "category": "Reverse engineering",
+  "tools": [
+    "Fusion",
+    "Digital calipers",
+    "CAD"
+  ],
+  "order": 6,
+  "featured": false,
+  "hero": {
+    "src": "images/projects/project-06/hero-shot.webp",
+    "small": "images/projects/project-06/hero-shot-small.webp",
+    "alt": "hero Shot",
+    "caption": "hero Shot",
+    "width": 1742,
+    "height": 1183
+  },
+  "gallery": [
+    {
+      "src": "images/projects/project-06/back-detail-shot.webp",
+      "small": "images/projects/project-06/back-detail-shot-small.webp",
+      "alt": "Back detail Shot",
+      "caption": "Back detail Shot",
+      "width": 1188,
+      "height": 1308
+    },
+    {
+      "src": "images/projects/project-06/component-cad-shot.webp",
+      "small": "images/projects/project-06/component-cad-shot-small.webp",
+      "alt": "Component CAD shot",
+      "caption": "Component CAD shot",
+      "width": 1420,
+      "height": 869
+    },
+    {
+      "src": "images/projects/project-06/detail-shot-behind.webp",
+      "small": "images/projects/project-06/detail-shot-behind-small.webp",
+      "alt": "Detail shot behind",
+      "caption": "Detail shot behind",
+      "width": 896,
+      "height": 1093
+    },
+    {
+      "src": "images/projects/project-06/detail-shot.webp",
+      "small": "images/projects/project-06/detail-shot-small.webp",
+      "alt": "Detail Shot",
+      "caption": "Detail Shot",
+      "width": 607,
+      "height": 1058
+    },
+    {
+      "src": "images/projects/project-06/detailed-handle-drawing-and-cad.webp",
+      "small": "images/projects/project-06/detailed-handle-drawing-and-cad-small.webp",
+      "alt": "Detailed handle drawing and CAD",
+      "caption": "Detailed handle drawing and CAD",
+      "width": 1580,
+      "height": 963
+    },
+    {
+      "src": "images/projects/project-06/detailshot.webp",
+      "small": "images/projects/project-06/detailshot-small.webp",
+      "alt": "DetailShot",
+      "caption": "DetailShot",
+      "width": 1624,
+      "height": 944
+    },
+    {
+      "src": "images/projects/project-06/hero-shot.webp",
+      "small": "images/projects/project-06/hero-shot-small.webp",
+      "alt": "hero Shot",
+      "caption": "hero Shot",
+      "width": 1742,
+      "height": 1183
+    }
+  ],
+  "objectives": [
+    "Produce a CAD model for simulation and end-effector design while learning Fusion."
+  ],
+  "contributions": [
+    "Built 2D sketches from photographs and flatbed scans.",
+    "Measured and verified critical dimensions with digital calipers."
+  ],
+  "process": [
+    {
+      "title": "Capture the geometry",
+      "body": "Combined image references with measured dimensions to reconstruct the tool’s complex ergonomic surfaces."
+    }
+  ],
+  "results": [
+    "Delivered a detailed 3D model for the intended simulation and end-effector design environment."
+  ],
+  "lessons": [
+    "Combining scans with physical measurement helps reconstruct organic shapes."
+  ],
+  "metrics": [],
+  "status": "Completed",
+  "sources": [
+    "Project6 / description.txt"
+  ]
+}

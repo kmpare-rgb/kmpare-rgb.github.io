@@ -1,0 +1,147 @@
+{
+  "id": "project-03",
+  "slug": "omnidirectional-pick-and-place",
+  "title": "Omnidirectional pick-and-place robot",
+  "summary": "A modular mecanum-wheel robot with four-link suspension and a guided scoop-and-lift mechanism.",
+  "description": "A five-person MCTR 260 team designed a robot to collect and deliver balls and blocks in a simulated warehouse. Kalen led mechanical design; the team developed the control and perception systems.",
+  "category": "Mobile robotics",
+  "tools": [
+    "SolidWorks",
+    "3D printing",
+    "Mechanism design"
+  ],
+  "order": 3,
+  "featured": true,
+  "hero": {
+    "src": "images/projects/project-03/heroshot.webp",
+    "small": "images/projects/project-03/heroshot-small.webp",
+    "alt": "Assembled project",
+    "caption": "Assembled project",
+    "width": 3024,
+    "height": 2809
+  },
+  "gallery": [
+    {
+      "src": "images/projects/project-03/cad-shot-labelled-vehical-base.webp",
+      "small": "images/projects/project-03/cad-shot-labelled-vehical-base-small.webp",
+      "alt": "CAD shot labelled vehicle base",
+      "caption": "CAD shot labelled vehicle base",
+      "width": 1937,
+      "height": 1072
+    },
+    {
+      "src": "images/projects/project-03/cad-shot.webp",
+      "small": "images/projects/project-03/cad-shot-small.webp",
+      "alt": "CAD shot",
+      "caption": "CAD shot",
+      "width": 1169,
+      "height": 991
+    },
+    {
+      "src": "images/projects/project-03/closeup-shot.webp",
+      "small": "images/projects/project-03/closeup-shot-small.webp",
+      "alt": "Closeup Shot",
+      "caption": "Closeup Shot",
+      "width": 3024,
+      "height": 2716
+    },
+    {
+      "src": "images/projects/project-03/heroshot.webp",
+      "small": "images/projects/project-03/heroshot-small.webp",
+      "alt": "Assembled project",
+      "caption": "Assembled project",
+      "width": 3024,
+      "height": 2809
+    },
+    {
+      "src": "images/projects/project-03/labelled-hero-shot.webp",
+      "small": "images/projects/project-03/labelled-hero-shot-small.webp",
+      "alt": "Labelled Hero shot",
+      "caption": "Labelled Hero shot",
+      "width": 1275,
+      "height": 1105
+    },
+    {
+      "src": "images/projects/project-03/lifting-mechanism-cad.webp",
+      "small": "images/projects/project-03/lifting-mechanism-cad-small.webp",
+      "alt": "Lifting mechanism CAD",
+      "caption": "Lifting mechanism CAD",
+      "width": 1544,
+      "height": 1282
+    },
+    {
+      "src": "images/projects/project-03/lifting-mechanism-prototype.webp",
+      "small": "images/projects/project-03/lifting-mechanism-prototype-small.webp",
+      "alt": "lifting mechanism prototypee",
+      "caption": "lifting mechanism prototypee",
+      "width": 1774,
+      "height": 1000
+    },
+    {
+      "src": "images/projects/project-03/side-scoop-showing-2-postions.webp",
+      "small": "images/projects/project-03/side-scoop-showing-2-postions-small.webp",
+      "alt": "Side Scoop showing 2 positions",
+      "caption": "Side Scoop showing 2 positions",
+      "width": 1564,
+      "height": 886
+    },
+    {
+      "src": "images/projects/project-03/team-group-photo.webp",
+      "small": "images/projects/project-03/team-group-photo-small.webp",
+      "alt": "Team Group Photo",
+      "caption": "Team Group Photo",
+      "width": 2392,
+      "height": 2392
+    }
+  ],
+  "objectives": [
+    "Create a modular chassis with replaceable suspension and lifting modules.",
+    "Keep object handling predictable enough to support the team’s autonomous navigation."
+  ],
+  "contributions": [
+    "Led mechanical design and developed the four-link suspension modules using adjustable RC coilovers.",
+    "Conceived the bevel-gear-driven lead screw and guided scoop, which stays level during lifting and tips at the top.",
+    "Guided teammates new to CAD through the design of the mechanism’s components."
+  ],
+  "process": [
+    {
+      "title": "Modularity as a starting point",
+      "body": "Defined mounting interfaces let the chassis, suspension, and lifting subsystems evolve independently. Two mirrored suspension configurations serve all four wheel positions."
+    },
+    {
+      "title": "Tune contact, simplify manufacture",
+      "body": "Adjustable RC coilovers replaced mismatched kit shocks. The report documents 15.28 mm of suspension travel and 45 × 45 mm M4 mounting patterns for the suspension."
+    },
+    {
+      "title": "Make unloading mechanical",
+      "body": "A bevel gear pair turns the lead screw through 90°. Guide rails keep the scoop level through travel and passively tip it at the top, reducing control complexity."
+    }
+  ],
+  "results": [
+    "Team placed first out of 20 teams and received the innovation award, according to Kalen’s project notes.",
+    "The final report describes autonomous collection of nearly every object, with manual intervention for the last object."
+  ],
+  "lessons": [
+    "Simple mechanisms and early system testing improved reliability.",
+    "Modular interfaces made iteration and assembly more manageable."
+  ],
+  "metrics": [
+    [
+      "1st / 20",
+      "Team placement"
+    ],
+    [
+      "15.28 mm",
+      "Suspension travel"
+    ],
+    [
+      "5",
+      "Team members"
+    ]
+  ],
+  "status": "Completed",
+  "sources": [
+    "Project3 / Info.txt",
+    "MCTR 260 Final Report, pp. 1, 10–16, 24–28"
+  ]
+}
