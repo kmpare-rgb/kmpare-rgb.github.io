@@ -46,30 +46,56 @@
       "height": 1004
     }
   ],
-  "objectives": [
-    "Redesign the steering gearbox to a 1:1 ratio to improve driver feedback and steering response.",
-    "Retrofit the existing shafts and housing."
+ 
+"objectives": [
+  "Redesign the steering gearbox to achieve a 1:1 gear ratio across a 45° shaft angle, improving driver feedback and steering response while maintaining compatibility with the existing shafts and housing."
+],
+"contributions": [
+  "Developed a fully parametric bevel gear model in SolidWorks using standard gear geometry equations, allowing tooth count, pitch angles, and tooth profiles to be adjusted systematically.",
+  "Selected a 20-tooth configuration as a compromise between the previous 16- and 24-tooth gears, balancing tooth strength, geometry, and packaging constraints.",
+  "Designed the replacement gear pair to integrate with the existing steering assembly and prepared the final CAD geometry for CNC manufacturing."
+],
+"process": [
+  {
+    "title": "Gear Geometry & Parametric Modelling",
+    "body": "Derived the bevel gear geometry for a 45° shaft intersection with a 1:1 transmission ratio, resulting in equal pitch-cone angles of 22.5°. Built the tooth profiles parametrically in SolidWorks using a 20° pressure angle, allowing key dimensions to be driven by equations rather than manually adjusted."
+  },
+  {
+    "title": "Tooth Profile Optimization",
+    "body": "Evaluated the previous 16- and 24-tooth configurations and selected a matching 20-tooth gear pair to balance tooth strength and compactness while reducing the risk of undercut. Derived the tooth-space taper from the pitch-cone geometry, incorporating a 1.5° draft to account for the changing tooth dimensions between the large and small ends."
+  },
+  {
+    "title": "Assembly Validation & Manufacturing",
+    "body": "Assembled the gears in SolidWorks using shaft-axis mates and mechanical gear-ratio constraints to verify alignment, correct rotational relationships, and nominal tooth engagement. Checked compatibility with the existing housing and shaft interfaces before finalizing the CAD models for CNC machining by a team sponsor."
+  }
+],
+"results": [
+  "Completed a fully parametric, manufacturing-ready CAD model of the replacement bevel gear pair for the existing steering gearbox.",
+  "Achieved the intended 1:1 transmission geometry across a 45° shaft angle while retaining compatibility with the original mechanical assembly.",
+  "Validated the intended kinematic relationship and nominal gear engagement in SolidWorks, then delivered the final designs to a team sponsor for CNC machining."
+],
+"lessons": [
+  "This project strengthened my understanding of bevel gear geometry, parametric CAD, and designing around existing mechanical interfaces. It highlighted the importance of deriving tooth geometry from pitch-cone relationships and validating assembly constraints before manufacturing. Physical testing after machining will be needed to evaluate backlash, contact patterns, and steering feel under load."
+],
+"metrics": [
+  [
+    "1:1",
+    "Transmission ratio"
   ],
-  "contributions": [
-    "Developed parametric bevel gears using standard gear equations.",
-    "Assembled and constrained the gears in SolidWorks to check rolling contact and interference."
+  [
+    "45°",
+    "Shaft intersection angle"
   ],
-  "process": [
-    {
-      "title": "Design within the interface",
-      "body": "The original shafts and housing established the constraints. Parametric gear geometry supported the change to a 1:1 ratio."
-    }
+  [
+    "20",
+    "Teeth per gear"
   ],
-  "results": [
-    "Delivered a manufacturable CAD model and sent the final designs to a team sponsor for CNC machining."
-  ],
-  "lessons": [],
-  "metrics": [
-    [
-      "1:1",
-      "Designed gear ratio"
-    ]
-  ],
+  [
+    "22.5°",
+    "Pitch-cone angle"
+  ]
+],
+
   "status": "Completed",
   "sources": [
     "Project7 / description.txt"
