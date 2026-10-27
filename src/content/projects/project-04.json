@@ -1,15 +1,15 @@
 {
   "id": "project-04",
   "slug": "brushless-dc-motor",
-  "title": "3D-printed brushless DC motor",
+  "title": "3D-Printed Brushless DC Motor",
   "summary": "A custom 36N40P fractional-slot motor built to connect electromagnetic theory with physical prototyping.",
   "description": "A custom 36N40P fractional-slot motor built to connect electromagnetic theory with physical prototyping.",
   "category": "Electric motors",
   "tools": [
     "SolidWorks",
-    "PLA Pro",
-    "Hand winding",
-    "Back-EMF testing"
+    "3D-Printing",
+    "Motor",
+    "Electromagnetic Theory"
   ],
   "order": 4,
   "featured": false,
@@ -79,36 +79,48 @@
       "height": 3198
     }
   ],
-  "objectives": [
-    "Design, fabricate, and test a motor from first principles for future robotic actuators."
+  
+"objectives": [
+  "Design, fabricate, and characterize a custom 36N40P fractional-slot brushless DC (BLDC) motor from first principles, exploring how winding configurations, magnetic flux, and mechanical design influence motor performance for future robotic actuators."
+],
+"contributions": [
+  "Modelled the motor assembly in SolidWorks and fabricated custom components using PLA Pro, designing around a 10010 laminated stator core.",
+  "Hand-wound 36 stator coils using six parallel strands of 26 AWG magnet wire per winding, connected in a Wye configuration.",
+  "Developed a low-cost back-EMF testing method using a power drill, smartphone RPM measurement, and induced voltage measurements between motor phases."
+],
+"process": [
+  {
+    "title": "Mechanical Design & Fabrication",
+    "body": "Designed the motor housing and rotor assembly in SolidWorks, accounting for bearing placement, stator alignment, and magnet positioning. Iteratively 3D-printed components to verify tolerances and achieve a functional assembly."
+  },
+  {
+    "title": "Electromagnetic Design",
+    "body": "Selected a 36-slot, 40-pole configuration and manually wound the stator. Used multiple parallel strands of thinner magnet wire to improve slot packing and reduce winding resistance while maintaining flexibility during winding."
+  },
+  {
+    "title": "Back-EMF Testing & Characterization",
+    "body": "Coupled the motor shaft to a power drill and rotated it at a controlled speed, using a smartphone tachometer app to estimate RPM. With the motor acting as a generator, measured the induced AC voltage between stator phases. Compared the voltage against rotational speed to estimate the motor's back-EMF constant and calculate Kv."
+  }
+],
+"results": [
+  "Successfully fabricated a functional BLDC motor prototype and characterized its electrical performance using an accessible, low-cost testing setup.",
+  "Calculated a speed constant of 443.4 RPM/V, significantly higher than the intended design target.",
+  "The elevated Kv suggested insufficient magnetic flux linkage, resulting in a lower-than-desired torque constant and highlighting a limitation in the rotor's magnetic return path."
+],
+"lessons": [
+  "Back-EMF testing reinforced the relationship between rotational speed, magnetic flux, and torque production. The next iteration will incorporate a steel rotor back iron or flux ring to provide a lower-reluctance magnetic return path, increase flux linkage, and reduce Kv. Further testing will compare the revised motor's electrical and torque characteristics against the original prototype."
+],
+"metrics": [
+  [
+    "36N40P",
+    "Motor configuration"
   ],
-  "contributions": [
-    "Modelled and printed the prototype around a 10010 laminated stator.",
-    "Hand-wound 36 coils in a Wye configuration with six parallel 26 AWG strands."
-  ],
-  "process": [
-    {
-      "title": "Build for learning",
-      "body": "Iterative printed components established fits for bearings and magnets. Multi-strand windings increased copper fill."
-    }
-  ],
-  "results": [
-    "Produced a functional motor prototype.",
-    "Back-EMF testing measured Kv = 443.4 RPM/V, higher than the target."
-  ],
-  "lessons": [
-    "The measured Kv indicated the need for a steel rotor or flux ring to strengthen the magnetic circuit."
-  ],
-  "metrics": [
-    [
-      "36N40P",
-      "Motor configuration"
-    ],
-    [
-      "443.4",
-      "Measured Kv · RPM/V"
-    ]
-  ],
+  [
+    "443.4",
+    "Measured Kv · RPM/V"
+  ]
+],
+
   "status": "Completed",
   "sources": [
     "Project4 / description.txt",
