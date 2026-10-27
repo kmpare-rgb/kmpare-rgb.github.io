@@ -1,9 +1,9 @@
 {
   "id": "project-07",
   "slug": "formula-racing-bevel-gears",
-  "title": "Formula Racing bevel gears",
-  "summary": "A 1:1 steering gear redesign, constrained by the shafts and housing of an existing Formula SAE assembly.",
-  "description": "A 1:1 steering gear redesign, constrained by the shafts and housing of an existing Formula SAE assembly.",
+  "title": "Custom Bevel Gears - UAlberta FSAE",
+  "summary": "Engineered a custom 1:1 bevel gear transmission using parametric CAD modelling, gear geometry calculations, and assembly validation for CNC manufacturing.",
+  "description": "Engineered a custom 1:1 bevel gear transmission using parametric CAD modelling, gear geometry calculations, and assembly validation for CNC manufacturing.",
   "category": "Steering systems",
   "tools": [
     "SolidWorks",
