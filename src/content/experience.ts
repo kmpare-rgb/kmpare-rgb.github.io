@@ -19,7 +19,7 @@ export const experience = [
         "dates": "JAN 2026 — PRESENT",
         "planned": false,
         "eyebrow": "Design. Fabricate. Integrate.",
-        "summary": "Designed custom End-of-Arm Tooling for timber wall framing, while also designing and wiring industrial control cabinets featuring PLCs, I/O modules, and relays.",
+        "summary": "Designed Robotic End-of-Arm Tooling, manufacturing jigs, and industrial control cabinets featuring PLCs, I/O modules, and relays.",
         "bullets": [
             "End-of-arm tooling with machined, waterjet-cut, and printed components.",
             "Industrial control cabinet assembly and wiring.",
@@ -33,7 +33,7 @@ export const experience = [
         "dates": "APR 2025 — AUG 2025",
         "planned": false,
         "eyebrow": "Better processes through iteration",
-        "summary": "Focused on robotics R&D execution for manufacturing workflows, through programming 6-DOF robots, end-effector integration, and process optimization for reliable production outcomes.",
+        "summary": "Designed, programmed, and troubleshot timber component manufacturing with industrial robotics.",
         "bullets": [
             "54.5% reduction in adhesive cycle time.",
             "Universal framing jig with a 60% cycle-time reduction.",
