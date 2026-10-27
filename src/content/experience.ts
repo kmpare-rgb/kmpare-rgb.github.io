@@ -2,10 +2,10 @@ export const experience = [
     {
         "company": "RoBIM Technologies Inc.",
         "role": "Production Lead",
-        "dates": "May — Dec 2026",
-        "planned": true,
+        "dates": "MAY 2026 — PRESENT",
+        "planned": false,
         "eyebrow": "From engineering to production",
-        "summary": "Leading daily operations at a robotic fabrication hub.",
+        "summary": "Serving as the bridge between product specifications, hardware design, workflow optimization, and production floor execution.",
         "bullets": [
             "Production planning, resource allocation, and shop-floor execution.",
             "ERP implementation for production KPI tracking.",
@@ -16,10 +16,10 @@ export const experience = [
     {
         "company": "RoBIM Technologies Inc.",
         "role": "Mechatronics Intern",
-        "dates": "Jan — Dec 2026",
-        "planned": true,
+        "dates": "JAN 2026 — PRESENT",
+        "planned": false,
         "eyebrow": "Design. Fabricate. Integrate.",
-        "summary": "Developing robotic tooling and controls for live production.",
+        "summary": "Designed custom End-of-Arm Tooling for timber wall framing, while also designing and wiring industrial control cabinets featuring PLCs, I/O modules, and relays.",
         "bullets": [
             "End-of-arm tooling with machined, waterjet-cut, and printed components.",
             "Industrial control cabinet assembly and wiring.",
@@ -30,10 +30,10 @@ export const experience = [
     {
         "company": "RoBIM Technologies Inc.",
         "role": "Robotic Fabrication Intern",
-        "dates": "Apr — Aug 2025",
+        "dates": "APR 2025 — AUG 2025",
         "planned": false,
         "eyebrow": "Better processes through iteration",
-        "summary": "Turning fabrication bottlenecks into robotic workflows.",
+        "summary": "Focused on robotics R&D execution for manufacturing workflows, through programming 6-DOF robots, end-effector integration, and process optimization for reliable production outcomes.",
         "bullets": [
             "54.5% reduction in adhesive cycle time.",
             "Universal framing jig with a 60% cycle-time reduction.",
