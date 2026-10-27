@@ -47,35 +47,42 @@
     }
   ],
  
+
 "objectives": [
-  "Redesign the steering gearbox to achieve a 1:1 gear ratio across a 45° shaft angle, improving driver feedback and steering response while maintaining compatibility with the existing shafts and housing."
+  "Redesign the steering gearbox to replace the existing unequal-ratio bevel gears with a compact 1:1 transmission, improving steering predictability and driver feedback without modifying the original shafts or housing."
 ],
 "contributions": [
-  "Developed a fully parametric bevel gear model in SolidWorks using standard gear geometry equations, allowing tooth count, pitch angles, and tooth profiles to be adjusted systematically.",
-  "Selected a 20-tooth configuration as a compromise between the previous 16- and 24-tooth gears, balancing tooth strength, geometry, and packaging constraints.",
-  "Designed the replacement gear pair to integrate with the existing steering assembly and prepared the final CAD geometry for CNC manufacturing."
+  "Engineered a custom bevel gear pair from first principles, deriving tooth geometry parametrically in SolidWorks rather than relying on standard off-the-shelf gear models.",
+  "Evaluated the existing 16- and 24-tooth configurations and developed a matching 20-tooth design to balance tooth strength, packaging constraints, and undercut risk.",
+  "Created and validated the complete gear assembly, resolving geometric constraints and preparing manufacturing-ready CAD models for CNC machining by a team sponsor."
 ],
 "process": [
   {
-    "title": "Gear Geometry & Parametric Modelling",
-    "body": "Derived the bevel gear geometry for a 45° shaft intersection with a 1:1 transmission ratio, resulting in equal pitch-cone angles of 22.5°. Built the tooth profiles parametrically in SolidWorks using a 20° pressure angle, allowing key dimensions to be driven by equations rather than manually adjusted."
+    "title": "Reverse Engineering & Design Constraints",
+    "body": "Analyzed the existing steering gearbox to identify the geometric constraints imposed by its shaft locations, mounting interfaces, and housing. The original unequal gear sizes were replaced with a symmetric 20:20 tooth configuration, achieving the desired 1:1 ratio while preserving the 45° shaft intersection."
   },
   {
-    "title": "Tooth Profile Optimization",
-    "body": "Evaluated the previous 16- and 24-tooth configurations and selected a matching 20-tooth gear pair to balance tooth strength and compactness while reducing the risk of undercut. Derived the tooth-space taper from the pitch-cone geometry, incorporating a 1.5° draft to account for the changing tooth dimensions between the large and small ends."
+    "title": "Parametric Gear Geometry",
+    "body": "Derived the gear geometry using standard bevel-gear equations. The 45° shaft angle and equal tooth counts established pitch-cone angles of 22.5° for both gears. Constructed the tooth profiles around a 20° pressure angle, using equations to control the geometry and maintain dimensional consistency as parameters changed."
   },
   {
-    "title": "Assembly Validation & Manufacturing",
-    "body": "Assembled the gears in SolidWorks using shaft-axis mates and mechanical gear-ratio constraints to verify alignment, correct rotational relationships, and nominal tooth engagement. Checked compatibility with the existing housing and shaft interfaces before finalizing the CAD models for CNC machining by a team sponsor."
+    "title": "Tooth Taper & Profile Development",
+    "body": "Unlike spur gears, bevel gear teeth decrease in size toward the cone apex. Used pitch-cone relationships to determine the required variation in tooth-space geometry, incorporating a 1.5° draft between the large and small ends. This required accounting for the three-dimensional tooth shape rather than simply extruding a constant cross-section."
+  },
+  {
+    "title": "Assembly Validation & Manufacturing Handoff",
+    "body": "Positioned the gears using shaft-axis mates and applied mechanical gear constraints in SolidWorks to verify the 1:1 rotational relationship. Reviewed the gear placement and clearances within the original gearbox envelope, then finalized the CAD geometry for CNC machining. This provided an opportunity to translate theoretical gear calculations into a manufacturable mechanical design."
   }
 ],
 "results": [
-  "Completed a fully parametric, manufacturing-ready CAD model of the replacement bevel gear pair for the existing steering gearbox.",
-  "Achieved the intended 1:1 transmission geometry across a 45° shaft angle while retaining compatibility with the original mechanical assembly.",
-  "Validated the intended kinematic relationship and nominal gear engagement in SolidWorks, then delivered the final designs to a team sponsor for CNC machining."
+  "Delivered a complete parametric CAD model of a custom bevel gear set, with geometry defined by engineering calculations and tailored to the existing steering assembly.",
+  "Established a 1:1 transmission across a 45° shaft angle using matching 20-tooth gears with 22.5° pitch-cone angles.",
+  "Completed digital assembly and kinematic validation, then submitted the finalized designs to a team sponsor for CNC manufacturing."
 ],
 "lessons": [
-  "This project strengthened my understanding of bevel gear geometry, parametric CAD, and designing around existing mechanical interfaces. It highlighted the importance of deriving tooth geometry from pitch-cone relationships and validating assembly constraints before manufacturing. Physical testing after machining will be needed to evaluate backlash, contact patterns, and steering feel under load."
+  "The most challenging aspect was translating idealized bevel-gear equations into a three-dimensional tooth profile that could fit within an existing mechanical assembly. The project demonstrated how shaft geometry, tooth count, pressure angle, and taper must be considered together rather than independently.",
+  "It also reinforced the importance of parametric modelling when working with tightly constrained designs. Linking dimensions to mathematical relationships made the geometry easier to refine and reduced the risk of inconsistencies between revisions.",
+  "The next stage is physical validation of the machined gears, particularly backlash, tooth contact patterns, and steering response under load. These measurements will help determine whether the theoretical geometry translates into the intended mechanical performance."
 ],
 "metrics": [
   [
@@ -95,6 +102,7 @@
     "Pitch-cone angle"
   ]
 ],
+
 
   "status": "Completed",
   "sources": [
